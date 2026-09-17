@@ -49,35 +49,35 @@ java vityarthi/
 │   └── com/
 │       └── vityarthi/
 │           └── analytics/
-│               ├── Main.java                        # System Entry Point & CLI Menu
-│               ├── model/                           # Domain Data Model Entities
+│               ├── Main.java                       
+│               ├── model/                           
 │               │   ├── Student.java
 │               │   ├── Course.java
 │               │   ├── AcademicRecord.java
 │               │   └── AttendanceRecord.java
-│               ├── service/                         # Business Logic & Analytics Services
+│               ├── service/                         
 │               │   ├── StudentService.java
 │               │   ├── AcademicService.java
 │               │   ├── AttendanceService.java
 │               │   ├── AnalyticsService.java
 │               │   └── ReportService.java
-│               ├── repository/                      # File I/O & Data Persistence Layer
+│               ├── repository/                      
 │               │   └── FileRepository.java
-│               ├── util/                            # Input Validation & Console UI Helpers
+│               ├── util/                            
 │               │   ├── InputValidator.java
 │               │   └── UIConsole.java
-│               └── test/                            # Verification Suite
+│               └── test/                            
 │                   └── TestRunner.java
 │
-├── data/                                            # Auto-created CSV storage directory
-├── reports/                                         # Auto-created text reports directory
-├── bin/                                             # Compiled class bytecodes
+├── data/                                            
+├── reports/                                         
+├── bin/                                             
 │
-├── README.md                                        # Project Quick Start Guide
-├── SYSTEM_ARCHITECTURE.md                          # Architectural & Design Documentation
-├── WORKFLOW.md                                      # Step-by-Step User Workflow Guide
-├── UML_DIAGRAMS.md                                  # Class, Sequence & Component Diagrams
-└── PROJECT_REPORT.md                                # Official VITyarthi Project Evaluation Report
+├── README.md                                     
+├── SYSTEM_ARCHITECTURE.md                        
+├── WORKFLOW.md                                   
+├── UML_DIAGRAMS.md                                 
+└── PROJECT_REPORT.md                                
 ```
 
 ---
